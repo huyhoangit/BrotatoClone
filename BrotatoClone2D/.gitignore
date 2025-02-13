@@ -6,3 +6,4 @@
 /.vsconfig
 /*.csproj
 /*.sln
+.vs/

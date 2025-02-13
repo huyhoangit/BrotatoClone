@@ -4,7 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     private float horizontalInput;
     private float verticalInput;
-    public float speed = 10.0f;
+    public float speed = 5f;
 
     void Start()
     {
