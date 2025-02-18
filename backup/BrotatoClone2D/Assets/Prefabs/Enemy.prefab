@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: -7514760413975839293}
   - component: {fileID: -9025376114520884613}
   - component: {fileID: -4050685776487333938}
-  - component: {fileID: -5151458989694457640}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -139,12 +138,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9489c894006e04847a47babcec23ebb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
   enemyType: 0
   tier1Material: {fileID: 2100000, guid: b8cf414ce50c469458a8a884156dfbd0, type: 2}
   tier2Material: {fileID: 2100000, guid: eb121475f1dcc7c44924b1cde33ff104, type: 2}
   tier3Material: {fileID: 2100000, guid: cba9c95dde5f0694bb510e3dcc0908b0, type: 2}
   tier4Material: {fileID: 2100000, guid: d54db20f5ead4c14c99121a35ea606b0, type: 2}
-  speed: 5
 --- !u!114 &-4050685776487333938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,30 +157,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 20
---- !u!50 &-5151458989694457640
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799490995213985748}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
