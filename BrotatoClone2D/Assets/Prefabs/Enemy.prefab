@@ -145,6 +145,9 @@ MonoBehaviour:
   tier3Material: {fileID: 2100000, guid: cba9c95dde5f0694bb510e3dcc0908b0, type: 2}
   tier4Material: {fileID: 2100000, guid: d54db20f5ead4c14c99121a35ea606b0, type: 2}
   speed: 5
+  wanderRadius: 5
+  wanderInterval: 2
+  coin: {fileID: 5285006635812760976, guid: e7ed79029a11cc341a782bd9504711cd, type: 3}
 --- !u!114 &-4050685776487333938
 MonoBehaviour:
   m_ObjectHideFlags: 0
